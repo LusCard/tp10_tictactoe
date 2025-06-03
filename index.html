@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe IA</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.0.0/dist/tf.min.js"></script>
+    <script defer src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gray-100 min-h-screen flex flex-col items-center justify-center"
+  >
+    <h1 class="text-3xl font-bold mb-8 text-gray-800">Tic-Tac-Toe IA</h1>
+    <div class="board grid grid-cols-3 gap-4 mb-6">
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="0"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="1"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="2"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="3"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="4"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="5"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="6"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="7"
+      ></div>
+      <div
+        class="cell w-24 h-24 flex items-center justify-center text-4xl font-bold bg-white rounded shadow cursor-pointer transition hover:bg-blue-100"
+        data-index="8"
+      ></div>
+    </div>
+    <button
+      id="reset"
+      class="px-6 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700 transition"
+    >
+      Reiniciar
+    </button>
+  </body>
+</html>
